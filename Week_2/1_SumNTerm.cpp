@@ -1,4 +1,4 @@
-//Program to find total sum and Sum of odd numbers and also even numbers also
+//Program to find total sum and also Sum of odd numbers and even numbers
 #include<stdio.h>
 int main()
 {
@@ -17,6 +17,6 @@ int main()
 	}
 	printf("\nTotal Sum:- %d",sum);
 	printf("\nEven Sum:- %d",even);
-    printf("\nOdd Sum:- %d",odd);	
+        printf("\nOdd Sum:- %d",odd);	
 	return 0;
 }
