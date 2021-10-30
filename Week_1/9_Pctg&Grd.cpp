@@ -6,7 +6,7 @@ int main()
 	printf("Enter your Marks of subject.\n\n");
 	printf("Physics - "); 
 	scanf("%d",&phy);
-    printf("Chemistry - "); 
+        printf("Chemistry - "); 
 	scanf("%d",&che);
 	printf("Biology - "); 
 	scanf("%d",&bio);
@@ -19,7 +19,7 @@ int main()
 	pctg=tot/5.0;
 	
 	printf("\nTotal Marks = %d\n",tot);
-    printf("Percenatge = %.2f%%\n",pctg);
+        printf("Percenatge = %.2f%%\n",pctg);
 	if(pctg>=90)
 	   printf("Grade = A\n");
 	else if(pctg>=80)
