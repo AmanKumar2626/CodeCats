@@ -23,8 +23,8 @@ int isprime(int num, int i)
 
 int main()
 {
-	int num;
-	cout<<"Enter a Number to check prime or not\n";
+    int num;
+    cout<<"Enter a Number to check prime or not\n";
     cin>>num;
     int check = isprime(num, num / 2);
     if (check == 1)
