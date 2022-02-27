@@ -3,7 +3,6 @@
 using namespace std;
 
 int convert(int);
- 
 int main()
 {
     int dec, bin;
